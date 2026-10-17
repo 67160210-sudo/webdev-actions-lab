@@ -3,16 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Pages Lab</title>
+  <title>My GitHub Pages Lab - 67160210</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="theme-toggle-container">
+    <button id="themeToggleBtn">🌙 สลับธีม (Dark/Light)</button>
+  </div>
+
   <main class="card">
     <h1>My Web Development Lab</h1>
-    <p>ชื่อ: ชลธิชา อยู่คะเชณ | รหัสนิสิต: 67160210</p>
+    <p class="subtitle">ชื่อ: ชลธิชา อยู่คะเชณ | รหัสนิสิต: 67160210</p>
+    
     <p id="status">Ready to deploy</p>
     <button id="helloBtn">Say Hello</button>
+
+    <hr class="divider">
+
+    <!-- Section 1: About Me -->
+    <section class="info-section">
+      <h2>📌 About Me</h2>
+      <p>สวัสดีค่ะ ชลธิชา อยู่คะเชณ นิสิตสาขาวิทยาการคอมพิวเตอร์/เทคโนโลยีสารสนเทศ ที่สนใจด้านการพัฒนาเว็บและ CI/CD Automation</p>
+    </section>
+
+    <!-- Section 2: Skills -->
+    <section class="info-section">
+      <h2>🛠️ Skills</h2>
+      <ul class="skills-list">
+        <li>HTML / CSS / JavaScript</li>
+        <li>Git & GitHub Version Control</li>
+        <li>GitHub Actions & Pages Automation</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: Contact -->
+    <section class="info-section">
+      <h2>📬 Contact</h2>
+      <p>Email: 67160210@go.buu.ac.th</p>
+      <p>GitHub: <a href="https://github.com/67160210-sudo" target="_blank">67160210-sudo</a></p>
+    </section>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>
