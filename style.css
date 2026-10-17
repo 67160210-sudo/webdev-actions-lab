@@ -1,29 +1,28 @@
 /* ---------- ตัวแปรสี (Light / Dark) ---------- */
 :root {
-  --bg: #eef4fb;
+  --bg: #f1f7f3;
   --surface: #ffffff;
-  --surface-2: #e3edf8;
-  --text: #12263f;
-  --muted: #55698480;
-  --muted-solid: #556984;
-  --line: #cfdceb;
-  --brand: #1769aa;
+  --surface-2: #dfeee5;
+  --text: #12302a;
+  --muted-solid: #567068;
+  --line: #cfe3d8;
+  --brand: #0f8b6d;
   --brand-ink: #ffffff;
-  --accent: #f2a900;
-  --shadow: 0 12px 32px #1e3a5f20;
+  --accent: #ff7a59;
+  --shadow: 0 12px 32px #0f3d3320;
   --radius: 18px;
   color-scheme: light;
 }
 :root[data-theme="dark"] {
-  --bg: #0c1726;
-  --surface: #12233a;
-  --surface-2: #19304d;
-  --text: #e8f0fa;
-  --muted-solid: #9db3cc;
-  --line: #243d5c;
-  --brand: #6bb6ff;
-  --brand-ink: #08233d;
-  --accent: #ffc83d;
+  --bg: #0a1a17;
+  --surface: #112823;
+  --surface-2: #17372f;
+  --text: #e6f5ef;
+  --muted-solid: #9bbdb2;
+  --line: #23473d;
+  --brand: #4fd1a5;
+  --brand-ink: #06241b;
+  --accent: #ff9b7a;
   --shadow: 0 12px 32px #00000066;
   color-scheme: dark;
 }
